@@ -77,7 +77,7 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Todo_App_C
 
 # Install dependencies
     $ python -m venv env
-    $ python3.10 -m venv env (for macOs/linux OS)
+    $ python -m venv env (for macOs/linux OS)
     $ env/Scripts/activate (for win OS)
     $ source env/bin/activate (for macOs/linux OS)
     $ pip install -r requirements.txt
@@ -91,23 +91,6 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Todo_App_C
 # example .env;
 
 SECRET_KEY =123456789abcdefg...
-
-# for development(dev) environments
-DEBUG =True
-
-# for product(prod) environments
-SQL_DATABASE={DB_NAME}
-SQL_USER={DB_USER_NAME}
-SQL_PASSWORD={DB_PASSWORD}
-SQL_HOST=localhost
-SQL_PORT=5432
-
-# for choices environment
-ENV_NAME =dev
-# ENV_NAME =prod
-
-DJANGO_LOG_LEVEL=INFO
-"""
 
 # Run the app
     $ python manage.py runserver
