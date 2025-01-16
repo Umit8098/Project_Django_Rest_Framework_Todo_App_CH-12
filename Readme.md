@@ -49,11 +49,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Djago Rest Framework
-- Swagger
-- Debug Toolbar
-- Logging
-- Redoc
-- PostgreSQL
+
 
 ## How To Use
 
@@ -120,9 +116,8 @@ SECRET_KEY =123456789abcdefg...
 - Production ortamında postgresql database kullanımı.
 
 ## Acknowledgements
-- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+
 
 ## Contact
 
