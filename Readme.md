@@ -91,6 +91,7 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Todo_App_C
 # example .env;
 
 SECRET_KEY =123456789abcdefg...
+"""
 
 # Run the app
     $ python manage.py runserver
