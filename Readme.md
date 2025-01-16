@@ -1,15 +1,15 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Project_Django_Rest_Framework_Personnel_App</h1>
+<h1 align="center">Project_Django_Rest_Framework_ToDo_App</h1>
 
 
 <div align="center">
   <h3>
-    <a href="https://umit8100.pythonanywhere.com/">
+    <a href="https://umit8101.pythonanywhere.com/">
       Demo
     </a>
      | 
-    <a href="https://umit8100.pythonanywhere.com/">
+    <a href="https://umit8101.pythonanywhere.com/">
       Project
     </a>
  
@@ -59,7 +59,7 @@
 
 <!-- This is an example, please update according to your application -->
 
-To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git) 
+To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Todo_App_CH-12.git) 
 
 When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
 
@@ -73,7 +73,7 @@ Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git
+$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Todo_App_CH-12.git
 
 # Install dependencies
     $ python -m venv env
