@@ -32,16 +32,11 @@
 
 ## Overview
 
-![screenshot](project_screenshot/personnel_swagger.gif)
+![screenshot](project_screenshot/ToDo_App-2.gif)
 
 ---
 
-![screenshot](project_screenshot/user_authentication.gif)
-
----
-
-![screenshot](project_screenshot/personnel_app.gif)
-
+![screenshot](project_screenshot/ToDo_App.gif)
 
 
 ## Built With
