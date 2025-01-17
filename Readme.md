@@ -89,26 +89,11 @@ SECRET_KEY =123456789abcdefg...
 ```
 
 ## About This Project
-- Personnel registration/management system API service.
-- dj-rest-auth for User Authentication..
-- super_user/staff_user (CRUD), user (DETAIL, UPDATE for own Profile objects)..
-- Creating a Profile for each user by expanding the Default User model.
-- permissions definitions between super_user, staff_user, user;
-   (Only the staff_user or super_user who created a created user can update it. Only super_user can delete.)
-- Separate environment settings for production and development.
-- Using Postgresql database in production environment.
+- Todo Application API service.
 
 <hr>
 
-- Personel kayıt/yönetim sistemi API servisi.
-- User Authentication için dj-rest-auth..
-- super_user/staff_user (CRUD), user (Kendi Profile objeleri için DETAİL, UPDATE)..
-- Default User modelini genişleterek her user için bir Profile oluşturulması..
-- super_user, staff_user, user arasında permissions tanımlamaları;
-   (create edilen bir user'ı sadece create eden staff_user veya super_user update edebilsin. 
-    Sadece super_user delete edebilsin.) 
-- Production ve development için ayrı ortam ayarları.
-- Production ortamında postgresql database kullanımı.
+- Todo Application API service.
 
 ## Acknowledgements
 - [Django Rest Framework](https://www.django-rest-framework.org/)
