@@ -27,6 +27,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
+  - [Örnek Kullanım](#örnek-kullanım)
 - [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -62,19 +63,18 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 <!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
 <img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
 
-
 ---
 
 - Todo CRUD Testi
 <!-- ![screenshot](project_screenshot/ToDo_App.gif) -->
 <img src="project_screenshot/ToDo_App.gif" alt="Todo CRUD Testi" width="400"/>
+➡ *Todo API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
 
 
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- Djago Rest Framework
+- [Django Rest Framework](https://www.django-rest-framework.org/) - Güçlü bir REST API framework'ü.
 
 
 ## How To Use
@@ -119,6 +119,25 @@ SECRET_KEY =123456789abcdefg...
     $ python manage.py runserver
 ```
 
+### Örnek Kullanım
+
+1. **Todo Listeleme:**
+   - URL: `https://umit8101.pythonanywhere.com/todo/`
+   - Method: `GET`
+
+2. **Todo Oluşturma:**
+   - URL: `https://umit8101.pythonanywhere.com/todo/`
+   - Method: `POST`
+   - Body (JSON):
+
+```json
+  {
+    "task": "study english",
+    "description": "test create",
+    "priority": 1
+  }
+```
+
 ## About This Project
 - Todo Application API service.
 
@@ -127,7 +146,7 @@ SECRET_KEY =123456789abcdefg...
 - Todo Application API service.
 
 ## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Django Rest Framework](https://www.django-rest-framework.org/) - REST API oluşturmak için kullanılan framework.
 
 
 ## Contact
