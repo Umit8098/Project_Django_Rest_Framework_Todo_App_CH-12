@@ -3,7 +3,7 @@
 <h1 align="center">Project_Django_Rest_Framework_ToDo_App</h1>
 
 
-<div align="center">
+<!-- <div align="center">
   <h3>
     <a href="https://umit8101.pythonanywhere.com/">
       Demo
@@ -14,13 +14,16 @@
     </a>
  
   </h3>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [API Endpoints](#api-endpoints)
+  - [Todo Endpoints:](#todo-endpoints)
+- [API Testing](#api-testing)
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
@@ -28,15 +31,43 @@
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
+## API Endpoints
+
+Bu API aşağıdaki endpoint'leri sağlar:
+
+
+### Todo Endpoints:
+- `GET https://umit8101.pythonanywhere.com/todo/` - Tüm todo'ları listele
+- `POST https://umit8101.pythonanywhere.com/todo/` - Yeni bir todo oluştur
+- `GET https://umit8101.pythonanywhere.com/todo/26/` - Belirli bir todo detayları
+- `PUT https://umit8101.pythonanywhere.com/todo/26/` - Todo güncelleme
+- `DELETE https://umit8101.pythonanywhere.com/todo/26/` - Todo silme
+
+## API Testing
+
+Postman Collection, API'nizin her bir endpoint'ini test etmek için gerekli istekleri içerir. API'nin işlevselliğini hızlı bir şekilde anlamak için kullanabilirsiniz.
+
+API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
+2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143) indirin ve içe aktarın.
+3. API'leri Postman üzerinden test etmeye başlayın.
+
+**Postman Collection Linki:**  
+[Blog App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143)
+
 
 ## Overview
+- Web browsable API
+<!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
+<img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
 
-![screenshot](project_screenshot/ToDo_App-2.gif)
 
 ---
-- Todo App Test On Postman
-![screenshot](project_screenshot/ToDo_App.gif)
+
+- Todo CRUD Testi
+<!-- ![screenshot](project_screenshot/ToDo_App.gif) -->
+<img src="project_screenshot/ToDo_App.gif" alt="Todo CRUD Testi" width="400"/>
 
 
 ## Built With
