@@ -36,13 +36,14 @@
 
 Bu API aşağıdaki endpoint'leri sağlar:
 
-
 ### Todo Endpoints:
-- `GET https://umit8101.pythonanywhere.com/todo/` - Tüm todo'ları listele
-- `POST https://umit8101.pythonanywhere.com/todo/` - Yeni bir todo oluştur
-- `GET https://umit8101.pythonanywhere.com/todo/26/` - Belirli bir todo detayları
-- `PUT https://umit8101.pythonanywhere.com/todo/26/` - Todo güncelleme
-- `DELETE https://umit8101.pythonanywhere.com/todo/26/` - Todo silme
+| Method | URL                                             | Açıklama                     |
+|--------|-------------------------------------------------|------------------------------|
+| GET    | `https://umit8101.pythonanywhere.com/todo/`     | Tüm todo'ları listele        |
+| POST   | `POST https://umit8101.pythonanywhere.com/todo/`| Yeni bir todo oluştur        |
+| GET    | `https://umit8101.pythonanywhere.com/todo/26/`  | Belirli bir todo'yu görüntüle|
+| PUT    | `https://umit8101.pythonanywhere.com/todo/26/`  | Bir todo'yu güncelle         |
+| DELETE | `https://umit8101.pythonanywhere.com/todo/26/`  | Bir todo'yu sil              |
 
 ## API Testing
 
@@ -59,21 +60,29 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 
 ## Overview
+
+Bu Django Rest Framework ile oluşturulmuş bir Todo API uygulamasıdır. Kullanıcıların yapılacaklar listesini oluşturmasına, güncellemesine, görüntülemesine ve silmesine olanak tanır. Bu API aşağıdaki özellikleri sunar:
+- CRUD işlemleri (Create, Read, Update, Delete)
+- Priorite bazlı sıralama
+- Kullanıcı dostu bir web tarayıcı arayüzü
+
 - Web browsable API
 <!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
 <img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
+➡ *Django Rest Framework'ün sağladığı web arayüzünde API'yi test etme süreci.*
 
 ---
 
 - Todo CRUD Testi
 <!-- ![screenshot](project_screenshot/ToDo_App.gif) -->
 <img src="project_screenshot/ToDo_App.gif" alt="Todo CRUD Testi" width="400"/>
-➡ *Todo API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
+➡ *Postman ile CRUD işlemlerini test ederken alınan ekran görüntüsü.*
 
 
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - [Django Rest Framework](https://www.django-rest-framework.org/) - Güçlü bir REST API framework'ü.
 
 
@@ -139,11 +148,19 @@ SECRET_KEY =123456789abcdefg...
 ```
 
 ## About This Project
-- Todo Application API service.
+
+This project is a Todo API implementation that aims to make it easier for users to organize their daily tasks. Users:
+- Can create, view, update and delete tasks.
+- Can assign priority to tasks.
+- Can test the API with a user-friendly web interface or tools like Postman.
 
 <hr>
 
-- Todo Application API service.
+Bu proje, kullanıcıların günlük görevlerini organize etmelerini kolaylaştırmayı hedefleyen bir Todo API uygulamasıdır. Kullanıcılar:
+- Görev oluşturabilir, görüntüleyebilir, güncelleyebilir ve silebilir.
+- Görevlerine öncelik atayabilir.
+- Kullanıcı dostu bir web arayüzü veya Postman gibi araçlarla API'yi test edebilir.
+
 
 ## Acknowledgements
 - [Django Rest Framework](https://www.django-rest-framework.org/) - REST API oluşturmak için kullanılan framework.
@@ -152,7 +169,7 @@ SECRET_KEY =123456789abcdefg...
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@Umit8098](https://github.com/Umit8098)
+- **GitHub**: [@Umit8098](https://github.com/Umit8098)
 
-- Linkedin [@umit-arat](https://linkedin.com/in/umit-arat/)
+- **LinkedIn**: [@umit-arat](https://linkedin.com/in/umit-arat/)
 <!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
