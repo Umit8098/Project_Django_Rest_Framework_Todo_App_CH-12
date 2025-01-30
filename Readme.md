@@ -30,7 +30,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
-  - [Örnek Kullanım](#örnek-kullanım)
+  - [Example Usage](#example-usage)
 - [About This Project](#about-this-project)
 - [Key Features](#key-features)
 - [Contact](#contact)
@@ -140,13 +140,13 @@ SECRET_KEY =123456789abcdefg...
     $ python manage.py runserver
 ```
 
-### Örnek Kullanım
+### Example Usage
 
-1. **Todo Listeleme:**
+1. **List Todo:**
    - URL: `https://umit8101.pythonanywhere.com/todo/`
    - Method: `GET`
 
-2. **Todo Oluşturma:**
+2. **Create Todo:**
    - URL: `https://umit8101.pythonanywhere.com/todo/`
    - Method: `POST`
    - Body (JSON):
