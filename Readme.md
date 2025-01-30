@@ -2,6 +2,9 @@
 
 <h1 align="center">Project_Django_Rest_Framework_ToDo_App</h1>
 
+<p align="center"><strong>
+  ✅ A simple ToDo application built with Django Rest Framework, providing an API to manage tasks efficiently. ✅
+</strong></p>
 
 <!-- <div align="center">
   <h3>
@@ -29,37 +32,44 @@
 - [How To Use](#how-to-use)
   - [Örnek Kullanım](#örnek-kullanım)
 - [About This Project](#about-this-project)
-- [Acknowledgements](#acknowledgements)
+- [Key Features](#key-features)
 - [Contact](#contact)
 
 ## API Endpoints
 
-Bu API aşağıdaki endpoint'leri sağlar:
+This API provides the following endpoints:
 
 ### Todo Endpoints:
-| Method | URL                                             | Açıklama                     |
-|--------|-------------------------------------------------|------------------------------|
-| GET    | `https://umit8101.pythonanywhere.com/todo/`     | Tüm todo'ları listele        |
-| POST   | `POST https://umit8101.pythonanywhere.com/todo/`| Yeni bir todo oluştur        |
-| GET    | `https://umit8101.pythonanywhere.com/todo/26/`  | Belirli bir todo'yu görüntüle|
-| PUT    | `https://umit8101.pythonanywhere.com/todo/26/`  | Bir todo'yu güncelle         |
-| DELETE | `https://umit8101.pythonanywhere.com/todo/26/`  | Bir todo'yu sil              |
+| Method | URL                                             | Explanation          |
+|--------|-------------------------------------------------|----------------------|
+| GET    | `https://umit8101.pythonanywhere.com/todo/`     | List all todos       |
+| POST   | `POST https://umit8101.pythonanywhere.com/todo/`| Create a new todo    |
+| GET    | `https://umit8101.pythonanywhere.com/todo/26/`  | View a specific todo |
+| PUT    | `https://umit8101.pythonanywhere.com/todo/26/`  | Update a todo        |
+| DELETE | `https://umit8101.pythonanywhere.com/todo/26/`  | Delete a todo        |
 
 ## API Testing
 
-Postman Collection, API'nizin her bir endpoint'ini test etmek için gerekli istekleri içerir. API'nin işlevselliğini hızlı bir şekilde anlamak için kullanabilirsiniz.
+Postman Collection contains the necessary requests to test each endpoint of your API. You can use it to quickly understand the functionality of the API.
 
-API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+To test APIs via Postman, you can follow the steps below:
 
-1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
-2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143) indirin ve içe aktarın.
-3. API'leri Postman üzerinden test etmeye başlayın.
+1. Install Postman (if not installed): [Postman İndir](https://www.postman.com/downloads/).
+2. This [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143) download and import.
+3. Start testing APIs via Postman.
 
-**Postman Collection Linki:**  
-[Blog App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143)
+**Postman Collection Link:**  
+[Todo App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-2f319feb-d1dd-4e25-8774-b3f1f5589e7d?action=share&creator=17531143)
 
 
 ## Overview
+
+This is a Todo API application built with Django Rest Framework. It allows users to create, update, view and delete to-do lists. This API offers the following features:
+- CRUD operations (Create, Read, Update, Delete)
+- Priority based sorting
+- A user-friendly web browser interface
+
+---
 
 Bu Django Rest Framework ile oluşturulmuş bir Todo API uygulamasıdır. Kullanıcıların yapılacaklar listesini oluşturmasına, güncellemesine, görüntülemesine ve silmesine olanak tanır. Bu API aşağıdaki özellikleri sunar:
 - CRUD işlemleri (Create, Read, Update, Delete)
@@ -69,21 +79,23 @@ Bu Django Rest Framework ile oluşturulmuş bir Todo API uygulamasıdır. Kullan
 - Web browsable API
 <!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
 <img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
-➡ *Django Rest Framework'ün sağladığı web arayüzünde API'yi test etme süreci.*
+
+➡ API testing in the web interface provided by Django Rest Framework.
 
 ---
 
-- Todo CRUD Testi
+- Todo CRUD Test
 <!-- ![screenshot](project_screenshot/ToDo_App.gif) -->
 <img src="project_screenshot/ToDo_App.gif" alt="Todo CRUD Testi" width="400"/>
-➡ *Postman ile CRUD işlemlerini test ederken alınan ekran görüntüsü.*
+
+➡ Testing CRUD operations with Postman.
 
 
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
-- [Django Rest Framework](https://www.django-rest-framework.org/) - Güçlü bir REST API framework'ü.
+This project is built with the following tools and libraries:
+- [Django Rest Framework](https://www.django-rest-framework.org/) - A powerful framework for developing REST APIs.
 
 
 ## How To Use
@@ -154,7 +166,7 @@ This project is a Todo API implementation that aims to make it easier for users 
 - Can assign priority to tasks.
 - Can test the API with a user-friendly web interface or tools like Postman.
 
-<hr>
+---
 
 Bu proje, kullanıcıların günlük görevlerini organize etmelerini kolaylaştırmayı hedefleyen bir Todo API uygulamasıdır. Kullanıcılar:
 - Görev oluşturabilir, görüntüleyebilir, güncelleyebilir ve silebilir.
@@ -162,8 +174,21 @@ Bu proje, kullanıcıların günlük görevlerini organize etmelerini kolaylaşt
 - Kullanıcı dostu bir web arayüzü veya Postman gibi araçlarla API'yi test edebilir.
 
 
-## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/) - REST API oluşturmak için kullanılan framework.
+## Key Features
+
+- **Task Management:** Users can create, update and delete tasks to be done.  
+- **Priority Assignment:** Priority levels can be assigned to tasks and thus priority jobs can be determined.  
+- **Web Interface:** User-friendly web browser interface provided by Django Rest Framework.  
+- **API Support:** Extensive API testing with tools like Postman.  
+- **CRUD Operations:** Full data management on tasks (Create, Read, Update, Delete).
+
+---
+
+- **Görev Yönetimi:** Kullanıcılar yapılacak görevler oluşturabilir, güncelleyebilir ve silebilir.  
+- **Öncelik Atama:** Görevlere öncelik seviyeleri atanabilir ve bu sayede öncelikli işler belirlenebilir.  
+- **Web Arayüzü:** Django Rest Framework tarafından sağlanan kullanıcı dostu web tarayıcı arayüzü.  
+- **API Desteği:** Postman gibi araçlarla kapsamlı API testi.  
+- **CRUD İşlemleri:** Görevler üzerinde tam veri yönetimi (Create, Read, Update, Delete).  
 
 
 ## Contact
