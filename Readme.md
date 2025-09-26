@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Project_Django_Rest_Framework_ToDo_Appp</h1>
+<h1 align="center">Project_Django_Rest_Framework_ToDo_App</h1>
 
 <p align="center"><strong>
   ✅ A simple ToDo application built with Django Rest Framework, providing an API to manage tasks efficiently. ✅
