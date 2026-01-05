@@ -15,20 +15,24 @@ supporting full CRUD operations, priority management and API testing via Postman
 </p>
 
 
-<!-- <div align="center">
+<div align="center">
   <h3>
     <a href="https://umit8101.pythonanywhere.com/">
-      Demo
+      🖥️ Live Demo
     </a>
      | 
     <a href="https://umit8101.pythonanywhere.com/">
-      Project
+      📂 Project
     </a>
  
   </h3>
-</div> -->
+</div>
 
-<!-- TABLE OF CONTENTS -->
+- Web browsable API
+<!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
+<img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
+
+➡ API testing in the web interface provided by Django Rest Framework.
 
 ## Navigation
 
@@ -48,13 +52,13 @@ supporting full CRUD operations, priority management and API testing via Postman
 This API provides the following endpoints:
 
 ### Todo Endpoints:
-| Method | URL                                             | Explanation          |
-|--------|-------------------------------------------------|----------------------|
-| GET    | `https://umit8101.pythonanywhere.com/todo/`     | List all todos       |
-| POST   | `https://umit8101.pythonanywhere.com/todo/`     | Create a new todo    |
-| GET    | `https://umit8101.pythonanywhere.com/todo/26/`  | View a specific todo |
-| PUT    | `https://umit8101.pythonanywhere.com/todo/26/`  | Update a todo        |
-| DELETE | `https://umit8101.pythonanywhere.com/todo/26/`  | Delete a todo        |
+| Method | URL          | Explanation          |
+|--------|--------------|----------------------|
+| GET    | `/todo/`     | List all todos       |
+| POST   | `/todo/`     | Create a new todo    |
+| GET    | `/todo/26/`  | View a specific todo |
+| PUT    | `/todo/26/`  | Update a todo        |
+| DELETE | `/todo/26/`  | Delete a todo        |
 
 ## API Testing
 
@@ -78,11 +82,6 @@ This is a Todo API application built with Django Rest Framework. It allows users
 - A user-friendly web browser interface
 
 
-- Web browsable API
-<!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
-<img src="project_screenshot/ToDo_App-2.gif" alt="Web browsable API" width="400"/>
-
-➡ API testing in the web interface provided by Django Rest Framework.
 
 ---
 
