@@ -31,7 +31,7 @@ supporting full CRUD operations, priority management and API testing via Postman
 - Web browsable API
 <!-- ![screenshot](project_screenshot/ToDo_App-2.gif) -->
 ![Flight App gif](project_screenshot/ToDo_App-2.gif)
-➡ API testing in the web interface provided by Django Rest Framework.
+- API testing in the web interface provided by Django Rest Framework.
 
 ## Navigation
 
