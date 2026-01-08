@@ -22,7 +22,7 @@ supporting full CRUD operations, priority management and API testing via Postman
     </a>
      | 
     <a href="https://umit8101.pythonanywhere.com/">
-      📂 Project
+      📂 Repository
     </a>
  
   </h3>
